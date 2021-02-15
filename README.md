@@ -1,1 +1,1 @@
-# ifxbgt60dev-release
+# ifxsensor-release
