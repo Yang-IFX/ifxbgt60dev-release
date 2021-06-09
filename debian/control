@@ -1,0 +1,12 @@
+Source: ros-noetic-ifx-bgt60-device
+Section: misc
+Priority: optional
+Maintainer: Yang Wu <Yang.Wu@infineon.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ifx-bgt60-device
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-generation, ros-noetic-roscpp, ros-noetic-std-msgs
+Description: The ifx_bgt60_device package
